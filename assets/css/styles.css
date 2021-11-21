@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "robotolab";
+  src: url("fonts/robotoslab/robotoslab-bold-webfont.woff2") format("woff2"),
+    url("fonts/robotoslab/robotoslab-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotolab";
+  src: url("fonts/robotoslab/robotoslab-light-webfont.woff2") format("woff2"),
+    url("fonts/robotoslab/robotoslab-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotolab";
+  src: url("fonts/robotoslab/robotoslab-regular-webfont.woff2") format("woff2"),
+    url("fonts/robotoslab/robotoslab-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abrilfatface";
+  src: url("fonts/abrilfatface/abrilfatface-regular-webfont.woff2")
+      format("woff2"),
+    url("fonts/abrilfatface/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sourcesans";
+  src: url("fonts/source-sans/sourcesanspro-black-webfont.woff2")
+      format("woff2"),
+    url("fonts/source-sans/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sourcesans";
+  src: url("fonts/source-sans/sourcesanspro-blackit-webfont.woff2")
+      format("woff2"),
+    url("fonts/source-sans/sourcesanspro-blackit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sourcesans";
+  src: url("fonts/source-sans/sourcesanspro-bold-webfont.woff2") format("woff2"),
+    url("fonts/source-sans/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sourcesans";
+  src: url("fonts/source-sans/sourcesanspro-boldit-webfont.woff2")
+      format("woff2"),
+    url("fonts/source-sans/sourcesanspro-boldit-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main h2 {
+  text-align: left;
+}
+
+main h5 {
+  text-align: left;
+  color: #dd3232;
+}
+
+header .date {
+  text-align: left;
+  padding: 10px;
+}
+
+nav {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+img {
+  width: 700px;
+  /* margin: 20px; */
+}
+
+section img {
+  width: 300px;
+}
+
+.newspaper-container {
+  width: 700px;
+  box-shadow: 3px 3px 5px #ddd;
+  border-radius: 2%;
+  background-color: white;
+  padding: 20px;
+}
+
+.moreArticles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+a {
+  font-size: 80%;
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+:visited {
+  color: #777;
+}
+
+:hover {
+  color: black;
+}
+
+h1 {
+  font-family: "abrilfatface";
+}
+
+main h2 {
+  font-family: "robotolab";
+}
+
+p {
+  /* font-family: "sourcesans"; */
+}
